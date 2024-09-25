@@ -1,0 +1,29 @@
+html{
+    font-family: system-ui;
+    /* font-size: 6px; */
+}
+.content {
+    width: fit-content;
+ 
+    display: inline-block;
+}
+
+.container {
+    text-align: center;
+    height: 100vh;
+    align-content: center;
+    /* text-align: center; */
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: mediumblue;
+    padding: 0.5em;
+    text-align: left;
+}
+a:not(.explanation):after {content: attr(href)}

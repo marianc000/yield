@@ -1,0 +1,10 @@
+<script type="module">
+    import { two, onClick } from './run.js';
+
+    onClick(()=>Promise.race([two(div),two(div2)]));
+
+</script>
+<link href="styles.css" rel="stylesheet" />
+
+<div id="div"></div><div id="div2"></div>
+<button type="button" id="btn">Show</button>

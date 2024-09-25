@@ -1,0 +1,9 @@
+<script type="module">
+    import { three, onClick } from './run.js';
+
+    onClick(()=>Promise.race([three(div),three(div2)]));
+</script>
+<link href="styles.css" rel="stylesheet" />
+
+<div id="div"></div><div id="div2"></div>
+<button type="button" id="btn">Show</button>
